@@ -1,19 +1,24 @@
 {
 	"name": "MirahezeHeader",
 	"author": "Brent Laabs (Labster)",
-	"url": "https://github.com/Miraheze/MirahezeHeader",
+	"url": "https://github.com/Miraheze/CustomHeader",
 	"descriptionmsg": "customheader-desc",
 	"type": "skin" ,
-	],
-	},
+	
 	"AutoloadClasses": {
 		"CustomHeaderHooks": "CustomHeader.php"
 	},
 	"Hooks": {
 		"SkinTemplateOutputPageBeforeExec": "CustomHeaderHooks::onSkinTemplateOutputPageBeforeExec"
 	},
-	"config": {
-	    "CustomHeaderHTML": false,
+	"MessagesDirs": {
+		"ManageWiki": [
+			"i18n"
+		]
 	},
+	"config": {
+	    "CustomHeaderHTML": false
+	},
+	
 	"manifest_version": 1
 }

@@ -8,7 +8,7 @@
  * @author Brent Laabs (Labster)
  * @authorlink http://www.mediawiki.org/wiki/User:Labster
  * @copyright Brent Laabs 2017
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 3.0 or later
  */
 
 if ( !defined( 'MEDIAWIKI' ) )

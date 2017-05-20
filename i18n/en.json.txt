@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brent Laabs (Labster)",
+			"Reception123"
+		]
+	},
+	"customheader-desc": "Adds a custom header to a page"
+}
