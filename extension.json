@@ -2,12 +2,18 @@
 	"name": "MirahezeHeader",
 	"author": "Brent Laabs (Labster)",
 	"url": "https://github.com/Miraheze/MirahezeHeader",
-	"descriptionmsg": "mirahezeheader-desc",
-	"type": // TO BE COMPLETED BY LABSTER ,
+	"descriptionmsg": "customheader-desc",
+	"type": "skin" ,
 	],
 	},
 	"AutoloadClasses": {
-		"SkinTemplateOutputPageBeforeExec": "SkinTemplateOutputPageBeforeExec",
-	"callback": "MyExtensionHooks::onSkinTemplateOutputPageBeforeExec",
+		"CustomHeaderHooks": "CustomHeader.php"
+	},
+	"Hooks": {
+		"SkinTemplateOutputPageBeforeExec": "CustomHeaderHooks::onSkinTemplateOutputPageBeforeExec"
+	},
+	"config": {
+	    "CustomHeaderHTML": false,
+	},
 	"manifest_version": 1
 }
