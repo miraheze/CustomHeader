@@ -26,8 +26,8 @@ class CustomHeaderHooks {
     public static function onSkinTemplateOutputPageBeforeExec( &$skin, &$template ) {
         global $wgCustomHeaderHTML;
         // OutputPage::headElement actually creates the opening <body> tag, so this goes right after
-        if ( $wgHeaderExtensionHTML ) {
-            $template->extend( 'headelement', $wgHeaderExtensionHTML );
+        if ( $wgCustomHeaderHTML ) {
+            $template->extend( 'headelement', $wgCustomHeaderHTML );
         }
         return true;
     }
