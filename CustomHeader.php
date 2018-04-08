@@ -1,4 +1,5 @@
 <?php
+
 /**
  * CustomHeader
  *
@@ -10,16 +11,6 @@
  * @copyright Brent Laabs 2017
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 3.0 or later
  */
-
-if ( !defined( 'MEDIAWIKI' ) )
-	die( 'This file is a MediaWiki extension, it is not a vaild entry point' );
-
-$wgExtensionCredits[ 'parserhook' ][] = array(
-	'path'            => __FILE__,
-	'name'           => 'CustomHeader',
-	'author'         => 'Brent Laabs (Labster)',
-	'version'        => '1.0',
-);
 
 // And inside a class...
 class CustomHeaderHooks {
