@@ -1,6 +1,7 @@
 {
 	"name": "CustomHeader",
 	"author": "Brent Laabs (Labster)",
+	"version": "1.0",
 	"url": "https://github.com/Miraheze/CustomHeader",
 	"descriptionmsg": "customheader-desc",
 	"type": "skin" ,
@@ -12,7 +13,7 @@
 		"SkinTemplateOutputPageBeforeExec": "CustomHeaderHooks::onSkinTemplateOutputPageBeforeExec"
 	},
 	"MessagesDirs": {
-		"ManageWiki": [
+		"CustomHeader": [
 			"i18n"
 		]
 	},
