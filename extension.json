@@ -18,8 +18,11 @@
 		]
 	},
 	"config": {
-	    "CustomHeaderHTML": false
+	    "CustomHeaderHTML": {
+		    "public": true,
+		    "value": false
+	    }
 	},
 	
-	"manifest_version": 1
+	"manifest_version": 2
 }
