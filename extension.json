@@ -4,8 +4,7 @@
 	"version": "1.0",
 	"url": "https://github.com/Miraheze/CustomHeader",
 	"descriptionmsg": "customheader-desc",
-	"type": "skin" ,
-	
+	"type": "skin",
 	"AutoloadClasses": {
 		"CustomHeaderHooks": "CustomHeader.php"
 	},
@@ -23,6 +22,5 @@
 		    "value": false
 	    }
 	},
-	
 	"manifest_version": 2
 }
