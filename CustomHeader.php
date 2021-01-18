@@ -12,14 +12,12 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 3.0 or later
  */
 
-// And inside a class...
 class CustomHeaderHooks {
-    public static function onSkinTemplateOutputPageBeforeExec( &$skin, &$template ) {
-        global $wgCustomHeaderHTML;
-        // OutputPage::headElement actually creates the opening <body> tag, so this goes right after
-        if ( $wgCustomHeaderHTML ) {
-            $template->extend( 'headelement', $wgCustomHeaderHTML );
-        }
-        return true;
-    }
+	public static function onSkinTemplateOutputPageBeforeExec( &$skin, &$template ) {
+		global $wgCustomHeaderHTML;
+		// OutputPage::headElement actually creates the opening <body> tag, so this goes right after
+		if ( $wgCustomHeaderHTML ) {
+			$template->extend( 'headelement', $wgCustomHeaderHTML );
+		}
+	}
 }
