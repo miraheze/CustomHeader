@@ -4,6 +4,7 @@
 	"version": "1.0",
 	"url": "https://github.com/Miraheze/CustomHeader",
 	"descriptionmsg": "customheader-desc",
+	"license-name": "GPL-3.0-or-later",
 	"type": "skin",
 	"AutoloadClasses": {
 		"CustomHeaderHooks": "CustomHeader.php"
